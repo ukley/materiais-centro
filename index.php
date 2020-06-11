@@ -28,7 +28,6 @@
 
                                       <li class="nav-item ">
                                                 <a class="nav-link"  v-on:click.prevent=post(10)>
-                                                        <i class="nc-icon nc-palette"></i>
                                                 <p>ED INFANTIL PRÉ I</p>
                                             </a>
                                         </li>
@@ -36,7 +35,6 @@
                     
                                         <li class="nav-item ">
                                                 <a class="nav-link"  v-on:click.prevent=post(14)>
-                                                        <i class="nc-icon nc-puzzle-10"></i>
                                                 <p>ED INFANTIL PRÉ II</p>
                                             </a>
                                         </li>            
@@ -44,7 +42,6 @@
                                     <div id="menu-fundI">    
                                         <li class="nav-item">
                                             <a class="nav-link" data-toggle="collapse" href="#formsExamples" >
-                                                <i class="nc-icon nc-app"></i>
                                                 <p>
                                                     ENS FUNDAMENTAL I
                                                     <b class="caret"></b>
@@ -90,7 +87,6 @@
                     
                                         <li class="nav-item">
                                             <a class="nav-link" data-toggle="collapse" href="#tablesExamples">
-                                                <i class="nc-icon nc-sun-fog-29"></i>
                                                 <p>
                                                     ENS FUNDAMENTAL II &nbsp;&nbsp;&nbsp;
                                                     <b class="caret"></b>
@@ -136,7 +132,6 @@
                     
                                         <li class="nav-item">
                                             <a class="nav-link" data-toggle="collapse" href="#mapsExamples">
-                                                    <i class="nc-icon nc-chart-bar-32"></i>
                                                     <p>
                                                    ENSINO MÉDIO
                                                     <b class="caret"></b>
@@ -163,7 +158,7 @@
                     
                     
                                                      <li class="nav-item ">
-                                                                <a class="nav-link"  v-on:click.prevent=post(17)>
+                                                            <a class="nav-link"  v-on:click.prevent=post(17)>
                                                                     
                                                                     <span class="sidebar-normal">3° Série</span>
                                                                 </a>
@@ -171,6 +166,22 @@
                                                 </ul>
                                             </div>
                                         </li>
+
+
+
+
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="collapse" v-on:click.prevent=post(127)>
+                                                    <p >                                           
+
+                                                   Clube de Humanidades
+                                                </p>
+                                            </a>
+                                           
+                                        </li>
+                    
+                    
                     
                     
                                                      
@@ -196,7 +207,6 @@
                                             <span class="navbar-toggler-bar burger-lines"></span>
 
                                         </button>   
-                                        <button type="button" class="btn btn-primary btn-sm">Opções </button>
 
 
                                     </div>
