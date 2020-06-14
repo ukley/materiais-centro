@@ -170,19 +170,30 @@
 
 
 
-
-                                        <li class="nav-item">
-                                            <a class="nav-link" v-on:click.prevent=post(1279)>
-                                                    <p >                                           
-
-                                                   Clube de Humanidades
+                                    <li class="nav-item">
+                                            <a class="nav-link" data-toggle="collapse" href="#humanidades">
+                                                    <p>
+                                                   CLUBE DE HUMANIDADES
+                                                    <b class="caret"></b>
                                                 </p>
                                             </a>
-                                           
-                                        </li>
+                                            <div class="collapse " id="humanidades">
+                                                <ul class="nav">
+                    
+                                                        <li class="nav-item ">
+                                                                <a class="nav-link"  v-on:click.prevent=post(1279)>
+                                                                    
+                                                                    <span class="sidebar-normal">Humanidades</span>
+                                                                </a>
+                                                        </li>                
+                                     
+                                                    
                     
                     
-                    
+                                                </ul>
+                                            </div>
+                                        </li>                
+                                       
                     
                                                      
                                     </ul>
