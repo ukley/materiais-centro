@@ -181,14 +181,13 @@
                                                 <ul class="nav">
                     
                                                         <li class="nav-item ">
-                                                                <a class="nav-link"  v-on:click.prevent=post(1279)>
+                                                            <!--id da categoria-->
+                                                                <a class="nav-link"  v-on:click.prevent=post(18)>
                                                                     
                                                                     <span class="sidebar-normal">Humanidades</span>
                                                                 </a>
                                                         </li>                
-                                     
-                                                    
-                    
+                                                                                       
                     
                                                 </ul>
                                             </div>
@@ -206,7 +205,7 @@
                                 <!-- Navbar -->
                                 <nav class="navbar navbar-expand-lg " color-on-scroll="500" >
                                     <div class="container-fluid">
-                                        <a class="navbar-brand" href="#pablo"> Unidade Centro</a>
+                                        <a class="navbar-brand" href="#pablo"> Unidade Centro Materiais</a>
 
 
                                         <button  type="button"  class="navbar-toggler navbar-toggler-right ml-auto hidden-sm-up "
